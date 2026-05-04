@@ -154,6 +154,7 @@ img {
     display: flex;
     align-items: center;
     gap: 0.8rem;
+    flex-shrink: 0;
 }
 
 .logo-img {
@@ -940,6 +941,23 @@ img {
         width: 90%;
         margin: 1rem auto;
         border-radius: 30px;
+    }
+    
+    .nav-container {
+        padding: 0 1rem;
+        height: 4.5rem;
+    }
+    
+    .logo-img {
+        height: 55px;
+    }
+    
+    .identificarse-btn {
+        display: none; /* Hide to save space on mobile */
+    }
+    
+    .nav-icons {
+        gap: 0.5rem;
     }
     
     .nav-icons .instagram-btn {
