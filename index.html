@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cuca Bonita | Costura Artesanal</title>
+    <meta name="description" content="La Cuca Bonita - Costura artesanal con amor. Prendas únicas hechas a mano.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Placeholder for icons, but we'll use SVG or simple text for simplicity if needed -->
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo-container">
+                <img src="images/logocuca.png" alt="La Cuca Bonita Logo" class="logo-img">
+                <span class="logo-text">La Cuca Bonita</span>
+            </a>
+            <button class="menu-toggle" aria-label="Abrir menú" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links" id="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre Mí</a>
+                <a href="#creaciones">Creaciones</a>
+                <a href="#contacto">Contacto</a>
+                <a href="https://www.instagram.com/lacucabonita/" target="_blank" class="instagram-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    Instagram
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <img src="images/logocuca.png" alt="La Cuca Bonita Logo Principal" class="main-hero-logo fade-up">
+            <h1 class="fade-up delay-1">Costura Artesanal con Alma</h1>
+            <p class="fade-up delay-1">Prendas únicas, hechas a mano y a medida, cuidando cada detalle para ti.</p>
+            <a href="#creaciones" class="btn-primary fade-up delay-2">Ver Colección</a>
+        </div>
+        <div class="hero-image-container fade-in delay-3">
+            <img src="../../brain/59369164-4bb6-49d6-8735-888bc7fe8dbf/hero_sewing_1777913139776.png" alt="Máquina de coser artesanal" class="hero-image">
+            <div class="glass-decoration"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2 class="section-title">El Arte de Crear</h2>
+                <p>En La Cuca Bonita creemos en la moda lenta, sostenible y hecha con cariño. Cada pieza que sale de nuestro taller ha sido diseñada, cortada y cosida a mano, asegurando la máxima calidad y exclusividad.</p>
+                <p>Nuestra inspiración nace de los tejidos naturales, los colores suaves y las siluetas atemporales. Queremos que te sientas especial y cómoda con cada prenda.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <h3>100%</h3>
+                    <p>Hecho a Mano</p>
+                </div>
+                <div class="stat-card">
+                    <h3>+</h3>
+                    <p>Diseños Únicos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio / Creations Section -->
+    <section id="creaciones" class="portfolio">
+        <h2 class="section-title text-center">Mis Creaciones</h2>
+        <p class="text-center section-subtitle">Un vistazo a nuestro trabajo artesanal</p>
+        
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <div class="card-img-wrapper">
+                    <img src="../../brain/59369164-4bb6-49d6-8735-888bc7fe8dbf/portfolio_item_1777913153199.png" alt="Prenda artesanal">
+                </div>
+                <div class="card-info">
+                    <h3>Vestidos Infantiles</h3>
+                    <p>Algodón 100% orgánico</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-card">
+                <div class="card-img-wrapper">
+                    <img src="../../brain/59369164-4bb6-49d6-8735-888bc7fe8dbf/portfolio_item_1777913153199.png" alt="Accesorios">
+                </div>
+                <div class="card-info">
+                    <h3>Accesorios Únicos</h3>
+                    <p>Detalles que marcan la diferencia</p>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="card-img-wrapper">
+                    <img src="../../brain/59369164-4bb6-49d6-8735-888bc7fe8dbf/portfolio_item_1777913153199.png" alt="A medida">
+                </div>
+                <div class="card-info">
+                    <h3>Confección a Medida</h3>
+                    <p>Diseños personalizados para ti</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-4">
+            <a href="https://www.instagram.com/lacucabonita/" target="_blank" class="btn-outline">
+                Ver más en Instagram
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer id="contacto" class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="images/logocuca2.png" alt="La Cuca Bonita Logo" class="footer-logo">
+                <p>Costura artesanal con corazón. Dejando huella puntada a puntada.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Enlaces</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre Mí</a>
+                <a href="#creaciones">Creaciones</a>
+            </div>
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <p>¿Tienes una idea en mente? ¡Hablemos!</p>
+                <a href="mailto:hola@lacucabonita.com" class="contact-link">hola@lacucabonita.com</a>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/lacucabonita/" target="_blank" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 La Cuca Bonita. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-up, .fade-in, .portfolio-card, .stat-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
